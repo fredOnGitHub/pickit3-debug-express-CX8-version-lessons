@@ -7,3 +7,4 @@ This is CX8 compiler version
 
 <img src="https://www.microchip.com/content/dam/mchp/mrt-dam/devtools/1089-dv164131-22864086857.jpg" alt="drawing" style="width:200px;"/>
 
+Note : PICkit 3 Debug Express Lessons.zip is old version
