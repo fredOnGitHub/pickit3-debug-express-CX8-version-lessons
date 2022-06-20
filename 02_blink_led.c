@@ -40,7 +40,8 @@
 /** D E F I N I T I O N S ****************************************************/
 #define KHz *1000UL
 #define MHz *1000000UL
-#define _XTAL_FREQ 2 MHz  //define crystal frequency
+//#define _XTAL_FREQ 500 KHz  //define crystal frequency
+#define _XTAL_FREQ 64 MHz  //define crystal frequency
 
 void main(void) 
 {
@@ -94,7 +95,7 @@ void main(void)
 //        => 4/1000 s / instruction * (1000 instructions) = unity
 //        see #define __delay_ms(x) _delay((unsigned long)((x)*(_XTAL_FREQ/4000.0)))
         
-        __delay_ms(500);//
+        __delay_ms(1);//1ms => the more _XTAL_FREQ is big better is the precision
     }
     return;
 }
